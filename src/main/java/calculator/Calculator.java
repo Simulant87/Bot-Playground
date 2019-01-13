@@ -8,6 +8,8 @@ public class Calculator extends SuperCalculator {
 	 * [smell] This variable is never used
 	 */
 	private String resultAsText;
+	
+	private String secondUnusedFiedl;
 
 	/**
 	 * [smell] Modifiers are not in correct order
