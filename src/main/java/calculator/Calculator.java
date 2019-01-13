@@ -26,15 +26,13 @@ public class Calculator extends SuperCalculator {
 	}
 
 	/**
-	 * [smell] This method has an unused parameter
-	 * 
-	 * @param a
-	 * @param b
-	 * @param c
-	 *            this one here
-	 * @return
-	 */
-	private double multiplication(double a, double b, double c) {
+ * [smell] This method has an unused parameter
+ * 
+ * @param a
+ * @param b
+ * @return
+ */
+	private double multiplication(double a, double b) {
 		return a * b;
 	}
 
@@ -78,7 +76,7 @@ public class Calculator extends SuperCalculator {
 			break;
 		case 3:
 			println("The result of the multiplication is:");
-			println(multiplication(num1, num2, 1));
+			println(multiplication(num1, num2));
 			break;
 		case 4:
 			println("The result of the division is:");
@@ -97,3 +95,4 @@ public class Calculator extends SuperCalculator {
 	}
 
 }
+
