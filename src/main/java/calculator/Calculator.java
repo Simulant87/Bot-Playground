@@ -12,7 +12,7 @@ public class Calculator extends SuperCalculator {
 	/**
 	 * [smell] Modifiers are not in correct order
 	 */
-	public final static int MULTIPLIER = 10;
+	public static final int MULTIPLIER = 10;
 
 	public static void main(String[] args) {
 		new Calculator().runProgram();
@@ -97,3 +97,4 @@ public class Calculator extends SuperCalculator {
 	}
 
 }
+
