@@ -21,6 +21,7 @@ public class Calculator extends SuperCalculator {
 	/**
 	 * [smell] This method misses an @Override annotation
 	 */
+	@Override
 	public double addition(double a, double b) {
 		return a + b;
 	}
@@ -97,3 +98,4 @@ public class Calculator extends SuperCalculator {
 	}
 
 }
+
